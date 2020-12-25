@@ -272,8 +272,9 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
-    tl.restart();
+    window.location.href = "https://alexissahagun1.github.io/";
   });
+
 };
 
 // Import the data to customize and insert them into page
